@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 import random
 
 """get rid of Gutenberg Project information"""
-
-
 def getrifof_ONE_gutenberg(name):
     for idx, lin in enumerate(name):
         start1 =  '*** START OF THIS PROJECT GUTENBERG'
