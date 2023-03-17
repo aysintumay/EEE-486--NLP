@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 from helpers import getridGutenberg,init_tokenization,stop_word_removal,type_frequency,tokensize_freq,best_fit,\
     group_freely,plot_Zipf,plot_Zipf_v2,plot_tokensize,plot_tokensize_v2,random_text_generator
-
-
 if __name__ == "__main__":
     file_path = os.path.join("C:\\Users\\User\\Desktop\\SPRING 2023\\EEE 486\\Assignment1\\texts")
     by_author_file = os.path.join(file_path, "by_author")
